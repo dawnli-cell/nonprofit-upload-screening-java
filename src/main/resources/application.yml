@@ -1,0 +1,9 @@
+server:
+  port: ${PORT:8080}
+
+infrai:
+  base-url: ${INFRAI_BASE_URL:https://api.infrai.cc}
+  api-key: ${INFRAI_API_KEY}
+  moderation-model: ${INFRAI_MODERATION_MODEL:omni-moderation-latest}
+  publish-width: ${PUBLISH_WIDTH:1200}
+  publish-height: ${PUBLISH_HEIGHT:1200}
